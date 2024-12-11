@@ -1,13 +1,15 @@
 import { useState } from 'react'
+import Header from './components/Header'
+import PostsPage from './components/PostsPage'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <div>
-        ciao
-      </div>
-
+      <Header />
+      <PostsPage />
+      <Footer />
     </>
   )
 }

@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
-        <>
-            <div>
+        <footer className="footer">
+            <div className="container">
                 sono il footer
             </div>
-        </>
+        </footer>
     )
 }
