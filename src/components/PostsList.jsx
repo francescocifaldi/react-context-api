@@ -1,3 +1,4 @@
+import PostCard from "./PostCard";
 
 
 export default function PostsList({ posts = [] }) {
@@ -7,7 +8,7 @@ export default function PostsList({ posts = [] }) {
         <ul>
             {posts.map(post => (
                 <li key={post.id}>
-                    {post.title}
+                    {<PostCard post={post} />}
                 </li>
             ))}
         </ul>
